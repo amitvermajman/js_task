@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="myscripts.js"></script>
+    <title>Add-to-cart</title>
+</head>
+<body>
+    
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+        <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#"><b>Jamn E-Commerce</b></a>
+            </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li class="active"><a href="#">Dairy</a></li>
+        <li class="active"><a href="#">Vegetable</a></li>
+        <li class="active"><a href="#">Bakery</a></li>
+        <li class="active"><a href="#">Vegan</a></li>
+        <li class="active"><a href="#">Meat</a></li>
+        <li class="active"><a href="#" >CheakList</a></li>
+        
+        </div>
+        </div>
+        </nav>
+    
+        <div class="jumbotron">
+            <h2><b>Welcome to Jman E-Commerce</b> </h2>
+               
+          </div>
+        
+        <div class="cart-container">
+          <h2>Cart</h2>
+          <table>
+            <thead>
+              <tr>
+              <th><strong>Product</strong></th>
+              <th><strong>Price</strong></th>
+            </tr>
+            </thead>
+            <tbody id="carttable">
+            </tbody>
+          </table>
+          <hr>
+          <table id="carttotals">
+            <tr>
+              <td><strong>Items</strong></td>
+              <td><strong>Total</strong></td>
+            </tr>
+            <tr>
+              <td><span id="itemsquantity">0</span></td>
+             
+              <td><span id="total">0</span></td>
+            </tr></table>
+
+            
+         
+</div>
+   
+
+</body>
+</html>
